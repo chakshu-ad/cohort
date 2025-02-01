@@ -1,5 +1,10 @@
 let firstname = "chakshu";
-let notmarried = false;
+let ismarried = false;
 let age = 25;
 
-console.log("this person name is " + firstname + " and his age is " + age);
+if (ismarried == true) {
+    console.log( firstname +  " are married");
+}
+else{
+    console.log( firstname +  " are not married");
+}
