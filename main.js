@@ -31,11 +31,12 @@
 // }
 
 
-const ages = [22, 23, 24, 25, 26];
-const noofpeople = ages.length; // Declare noofpeople with const or let
+// const ages = [22, 23, 24, 25, 26];
+// const noofpeople = ages.length; // Declare noofpeople with const or let
 
-for (let i = 0; i < noofpeople; i++) {
-  if (ages[i] % 2 == 0) {
-    console.log(ages[i]);
-  }
-}
+// for (let i = 0; i < noofpeople; i++) {
+//   if (ages[i] % 2 == 0) {
+//     console.log(ages[i]);
+//   }
+// }
+
