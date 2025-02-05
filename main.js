@@ -49,11 +49,22 @@
 // }
 // console.log(largest);
 
-const personArray = ["chakshu", "karan", "harsh"];
-const genderArray = ["male", "male", "female"];
+// const personArray = ["chakshu", "karan", "harsh"];
+// const genderArray = ["male", "male", "female"];
 
-for (i = 0; i < personArray.length; i++) {
-  if (genderArray[i] == "male") {
-    console.log("Hello Mr. " + personArray[i]);
-  }
+// for (i = 0; i < personArray.length; i++) {
+//   if (genderArray[i] == "male") {
+//     console.log("Hello Mr. " + personArray[i]);
+//   }
+// }
+
+const allUsers = [
+    { name: "John", age: 25, gender: "male" },
+    { name: "Jane", age: 30, gender: "female" },
+    { name: "Bob", age: 35, gender: "male" },
+]
+for(i = 0; i < allUsers.length; i++){
+    if(allUsers[i]["gender"] == "male"){
+        console.log("Hello Mr. " + allUsers[i]["name"])
+    }
 }
