@@ -57,14 +57,6 @@
 //     console.log("Hello Mr. " + personArray[i]);
 //   }
 // }
-
-const allUsers = [
-    { name: "John", age: 25, gender: "male" },
-    { name: "Jane", age: 30, gender: "female" },
-    { name: "Bob", age: 35, gender: "male" },
-]
-for(i = 0; i < allUsers.length; i++){
-    if(allUsers[i]["gender"] == "male"){
-        console.log("Hello Mr. " + allUsers[i]["name"])
-    }
-}
+const arr = [10, 20, 30, 40, 50, 60];
+arr.reverse();
+console.log(arr);
