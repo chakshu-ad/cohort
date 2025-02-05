@@ -30,7 +30,6 @@
 //     console.log("I don't know who you are.")
 // }
 
-
 // const ages = [22, 23, 24, 25, 26];
 // const noofpeople = ages.length; // Declare noofpeople with const or let
 
@@ -40,12 +39,21 @@
 //   }
 // }
 
-const numbers = [22, 50, 55, 200, 1999];
-let largest = numbers[0];
+// const numbers = [22, 50, 55, 200, 1999];
+// let largest = numbers[0];
 
-for(let i = 1; i < numbers.length; i++){
-    if(numbers[i] > largest){
-        largest = numbers[i];
-    }
+// for(let i = 1; i < numbers.length; i++){
+//     if(numbers[i] > largest){
+//         largest = numbers[i];
+//     }
+// }
+// console.log(largest);
+
+const personArray = ["chakshu", "karan", "harsh"];
+const genderArray = ["male", "male", "female"];
+
+for (i = 0; i < personArray.length; i++) {
+  if (genderArray[i] == "male") {
+    console.log("Hello Mr. " + personArray[i]);
+  }
 }
-console.log(largest);
