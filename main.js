@@ -87,11 +87,51 @@
 
 
 
-function sum(a,b){
-    const sumValue = a + b;
-    return sumValue;
-}
+// function sum(a,b){
+//     const sumValue = a + b;
+//     return sumValue;
+// }
 
-const value = sum(1, 2)
-const value2 = sum(3, 2)
-console.log(value, value2);
+// const value = sum(1, 2)
+// const value2 = sum(3, 2)
+// console.log(value, value2);
+
+
+
+//let sum = 0;
+
+//for(i = 0; i < 1000000000000; i++){
+ //   sum = sum + i;
+//}
+//console.log("sum");
+
+
+//  let firstname= "chakshu";
+// let age= 22;
+// ismarried= false;
+// if(ismarried == true){
+//     console.log(firstname + "is married")
+
+// }
+// else{
+//     console.log(firstname + "is not married")
+// }
+
+// let answer = 0;
+
+// for(let i = 0; i<=100; i=i+1) {
+//     answer = answer + i;
+// }
+
+// console.log(answer);
+
+let firstname = "chakshu"
+let isgender = "male"
+
+if(isgender == "male"){
+    console.log("Hello Mr." + firstname)
+
+}
+else{
+    console.log("I dont know who you are.")
+}
