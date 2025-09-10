@@ -44,19 +44,33 @@
 
 //object in array
 
-const allusers = [{
-    firstname: "chakshu",
-    gender: "male"
-},{
-    firstname: "hardik",
-    gender: "male"
-},{
-    firstname: "mahika",
-    gender: "female"
-}]
+// const allusers = [{
+//     firstname: "chakshu",
+//     gender: "male"
+// },{
+//     firstname: "hardik",
+//     gender: "male"
+// },{
+//     firstname: "mahika",
+//     gender: "female"
+// }]
 
-for(let i =0; i< allusers.length; i++){
-    if(allusers[i]["gender"] == "male"){
-        console.log(allusers[i]["firstname"])
-    }
-}
+// for(let i =0; i< allusers.length; i++){
+//     if(allusers[i]["gender"] == "male"){
+//         console.log(allusers[i]["firstname"])
+//     }
+// }
+
+const numbers = ["one", "two", "three", "four"];
+
+numbers.reverse();
+
+console.log("Reversedarray:", numbers);
+
+
+const original= [10, 20, 30, 40, 50];
+
+const reversedcopy= [...original].reverse();
+
+console.log("Original:", original);
+console.log("Reversed copy:", reversedcopy);
